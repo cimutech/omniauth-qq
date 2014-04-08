@@ -30,14 +30,14 @@ module OmniAuth
         end
       end
 
-      info do 
-        { 
+      info do
+        {
           :nickname => raw_info['nickname'],
           :name => raw_info['nickname'],
-          :image => raw_info['figureurl_1'],
+          :image => raw_info['figureurl_qq_1'],
         }
       end
-      
+
       extra do
         {
           :raw_info => raw_info
